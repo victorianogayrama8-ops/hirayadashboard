@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+
+<html lang="en" style=""><head>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><meta content="web_dashboard" name="shell-type"/></head><body class="bg-background font-body-md text-on-surface antialiased"><svg aria-hidden="true" class="inline-defs-container" style="position:absolute;width:0;height:0;overflow:hidden"></svg><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-container":"#fcab83","surface-container":"#f8ece2","surface-container-lowest":"#ffffff","primary":"#00332e","on-background":"#201b15","on-tertiary-fixed":"#311300","primary-container":"#114b44","secondary-fixed":"#ffdbcb","on-error":"#ffffff","tertiary":"#4b2000","primary-fixed-dim":"#9bd1c7","on-secondary-fixed":"#341100","inverse-surface":"#362f29","surface-bright":"#fff8f4","inverse-on-surface":"#fbefe5","on-primary-fixed-variant":"#174f48","background":"#fff8f4","on-surface":"#201b15","on-secondary-container":"#773d1d","on-tertiary-fixed-variant":"#6f380d","surface-container-low":"#fef1e7","surface-container-highest":"#ece0d7","surface-container-high":"#f2e6dc","tertiary-container":"#6a3409","tertiary-fixed-dim":"#ffb689","on-primary-fixed":"#00201c","surface":"#fff8f4","surface-dim":"#e4d8ce","on-error-container":"#93000a","on-tertiary-container":"#eb9d6b","on-primary-container":"#84bab1","outline-variant":"#bfc8c6","error":"#ba1a1a","tertiary-fixed":"#ffdbc8","surface-tint":"#32675f","on-secondary-fixed-variant":"#703718","outline":"#707977","inverse-primary":"#9bd1c7","on-surface-variant":"#404947","on-secondary":"#ffffff","error-container":"#ffdad6","on-tertiary":"#ffffff","on-primary":"#ffffff","primary-fixed":"#b6ede3","secondary-fixed-dim":"#ffb692","surface-variant":"#ece0d7","secondary":"#8d4e2d"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-lg":"1.5rem","margin-md":"2rem","space-sm":"0.5rem","space-2xl":"3.5rem","margin":"1rem","space-xl":"2.25rem","gutter-lg":"2rem","space-xs":"0.25rem","margin-lg":"3.5rem","space-md":"1rem","gutter":"1.25rem"},"fontFamily":{"headline-lg":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"headline-xl":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"headline-xl-mobile":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"]},"fontSize":{"headline-lg":["1.75rem",{"lineHeight":"1.3","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["0.75rem",{"lineHeight":"1.25","letterSpacing":"0.03em","fontWeight":"600"}],"headline-xl":["2.5rem",{"lineHeight":"1.2","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["0.75rem",{"lineHeight":"1.5","fontWeight":"400"}],"label-sm":["0.6875rem",{"lineHeight":"1.2","letterSpacing":"0.05em","fontWeight":"700"}],"body-lg":["1rem",{"lineHeight":"1.6","fontWeight":"400"}],"body-md":["0.875rem",{"lineHeight":"1.5","fontWeight":"400"}],"headline-md":["1.25rem",{"lineHeight":"1.4","fontWeight":"600"}],"headline-xl-mobile":["1.875rem",{"lineHeight":"1.25","letterSpacing":"-0.01em","fontWeight":"600"}],"title-md":["1rem",{"lineHeight":"1.4","fontWeight":"600"}],"label-lg":["0.875rem",{"lineHeight":"1.25","letterSpacing":"0.01em","fontWeight":"600"}],"title-lg":["1.125rem",{"lineHeight":"1.4","fontWeight":"700"}]}}}};</script><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-low z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="h-20 px-space-md flex items-center gap-space-sm"><div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[24px]">surfing</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-md text-primary tracking-tight">Hiraya Bay</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Resort &amp; Cabanas</span></div></div><div class="px-space-md py-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-wider text-outline px-space-xs">Operations &amp; Stays</span></div><nav class="flex flex-col px-space-sm gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-title-md"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard-overview" href="#"><span class="material-symbols-outlined text-[20px]">dashboard</span><span class="font-body-md text-body-md">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reservations-stays" href="#"><span class="material-symbols-outlined text-[20px]">hotel</span><span class="font-body-md text-body-md">Reservations &amp; Stays</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reservation-schedule" href="#"><span class="material-symbols-outlined text-[20px]">calendar_month</span><span class="font-body-md text-body-md">Reservation Schedule</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="guest-inbox" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">forum</span><span class="font-body-md text-body-md">Messages &amp; Inbox</span></div><span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">5</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="billing-payments" href="#"><span class="material-symbols-outlined text-[20px]">payments</span><span class="font-body-md text-body-md">Billing &amp; Payments</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary font-title-md transition-colors" data-path="settings-staff" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-body-md text-body-md">Settings &amp; Staff</span></a></nav></div><div class="p-space-md flex flex-col gap-space-sm"><div class="rounded-lg bg-surface-container-highest p-space-sm flex flex-col gap-space-xs"><div class="flex items-center justify-between text-on-surface-variant"><span class="font-label-sm text-label-sm uppercase tracking-wide">Coastal Weather</span><span class="material-symbols-outlined text-[18px] text-secondary">sunny</span></div><div class="flex items-baseline justify-between"><span class="font-title-md text-title-md text-on-surface">Sunny 29°C</span><span class="font-label-sm text-label-sm text-outline">Calm Tide</span></div></div><div class="rounded-lg bg-surface-container p-space-sm flex items-center justify-between"><div class="flex flex-col"><span class="font-label-sm text-label-sm text-outline uppercase">Concierge Hotline</span><span class="font-body-sm text-body-sm text-primary font-bold">+63 917 123 4567</span></div><span class="material-symbols-outlined text-secondary text-[20px]">phone_in_talk</span></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-20 bg-surface/80 backdrop-blur-xl z-40 flex items-center justify-between px-gutter-lg shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-md flex-1 max-w-xl"><div class="relative w-full max-w-md"><span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span><input class="w-full pl-10 pr-space-md py-space-sm bg-surface-container-low text-on-surface rounded-lg placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest transition-colors" placeholder="Search guest name, folio ID, cabana..." type="text"/></div><div class="hidden xl:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span class="font-label-sm text-label-sm whitespace-nowrap">94% Occupancy • High Season</span></div></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm"><button class="flex items-center gap-space-xs px-space-md py-space-sm bg-primary text-on-primary rounded-lg font-label-lg text-label-lg transition-transform hover:scale-[1.01]" type="button"><span class="material-symbols-outlined text-[18px]">add</span><span class="">New Booking</span></button><button class="hidden sm:flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container text-on-surface rounded-lg font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">how_to_reg</span><span class="">Quick Check-in</span></button></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="relative p-space-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full"></span></button><button aria-label="Guest messages" class="relative p-space-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">chat_bubble</span><span class="absolute top-1 right-1 px-1 min-w-[16px] h-4 rounded-full bg-secondary text-on-secondary font-label-sm text-[10px] flex items-center justify-center">3</span></button></div><div class="flex items-center gap-space-sm pl-space-sm"><div class="hidden md:flex flex-col text-right"><span class="font-title-md text-title-md text-on-surface leading-tight">Maria Santos</span><span class="font-label-sm text-label-sm text-outline">Admin / Front Desk</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 px-gutter-lg py-space-xl bg-background"><div class="flex flex-col w-full gap-space-xl">
+<!-- Top Navigation & Action Banner -->
+<div class="flex flex-col xl:flex-row xl:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-outline font-label-sm uppercase tracking-wider">
+<span>Operations &amp; Stays</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-secondary font-bold">Settings &amp; Staff</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight font-headline-lg">
+        Settings &amp; Staff Management
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+        Configure resort administration, frontline staff rosters, duty shifts, direct concierge contact channels, and emergency response hotline dispatch protocols for Hiraya Bay Resort &amp; Cabanas.
+      </p>
+</div>
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg font-label-lg text-label-lg transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">picture_as_pdf</span>
+<span>Export Directory (PDF)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-lg py-space-sm bg-primary-container text-on-primary rounded-lg font-label-lg text-label-lg hover:opacity-95 transition-all shadow-md hover:scale-[1.01]" id="btn-save-sync" type="button">
+<span class="material-symbols-outlined text-[18px]">sync</span>
+<span>Save Settings &amp; Sync Roster</span>
+</button>
+</div>
+</div>
+<!-- KPI Summaries -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Active Staff on Duty -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between">
+<span class="font-label-sm uppercase tracking-wider text-outline">Active Staff on Duty</span>
+<span class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">groups</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-lg text-headline-lg text-primary">14</span>
+<span class="font-body-md text-body-md text-outline">/ 18 Staff on Shift</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm inline-flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+            Morning Shift (6AM - 2PM)
+          </span>
+</div>
+</div>
+<div class="mt-space-sm flex items-center gap-1 text-[11px] text-on-surface-variant font-label-sm">
+<span>FD: 4</span> • <span>Ops: 5</span> • <span>Safety: 3</span> • <span>F&amp;B: 2</span>
+</div>
+</div>
+<!-- Concierge Line Status -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between">
+<span class="font-label-sm uppercase tracking-wider text-outline">Concierge Line Status</span>
+<span class="w-8 h-8 rounded-full bg-primary-fixed-dim/30 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[18px]">cell_tower</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary font-bold">Live &amp; Active</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">+63 917 123 4567</span>
+</div>
+</div>
+<div class="mt-space-sm flex items-center gap-1.5 text-[11px] text-primary-container font-label-sm">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>VoIP &amp; SIM: Zero Dropped Calls Today</span>
+</div>
+</div>
+<!-- Emergency Dispatch Response -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between">
+<span class="font-label-sm uppercase tracking-wider text-outline">Emergency Dispatch</span>
+<span class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">crisis_alert</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-secondary font-bold">Level 1 Standby</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">
+            Tide: Calm • Low Surf
+          </span>
+</div>
+</div>
+<div class="mt-space-sm flex items-center gap-1.5 text-[11px] text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[14px]">link</span>
+<span>Coast Guard &amp; Barangay Rescue Linked</span>
+</div>
+</div>
+<!-- Front Desk Terminals -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between">
+<span class="font-label-sm uppercase tracking-wider text-outline">Active POS Terminals</span>
+<span class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">devices</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-lg text-headline-lg text-primary">3 / 3</span>
+<span class="font-body-md text-body-md text-outline">Stations Synced</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gate, Lobby, Mobile POS</span>
+</div>
+</div>
+<div class="mt-space-sm flex items-center justify-between text-[11px] text-outline font-label-sm">
+<span>Latency: 28ms</span>
+<span class="text-primary-container font-semibold">Online</span>
+</div>
+</div>
+</div>
+<!-- Primary Split: Left Hierarchy & Roster (8 Cols) / Right Contact Channels & Emergency Protocols (4 Cols) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-start">
+<!-- LEFT 8 COLS: Organization Hierarchy & Roster Management -->
+<div class="lg:col-span-8 flex flex-col gap-space-xl">
+<!-- Executive Leadership / Hierarchy -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-6 rounded-full bg-secondary"></span>
+<div>
+<h2 class="font-headline-md text-headline-md text-primary">Resort Leadership &amp; Departmental Hierarchy</h2>
+<span class="font-body-sm text-body-sm text-outline">Hiraya Bay operational structure, departmental authorizations, and extensions</span>
+</div>
+</div>
+<button class="hidden sm:flex items-center gap-1 font-label-md text-label-md text-primary-container hover:text-primary" type="button">
+<span>Audit Permissions</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</button>
+</div>
+<!-- General Management Root Node -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="relative w-16 h-16 rounded-xl overflow-hidden shadow-sm flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Warm portrait of resort general manager Roberto Dela Cruz wearing a refined cream linen shirt with subtle bamboo architecture and tropical garden in the soft focus background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiHZi49NmMaGs5vH-BkN0RxT3sybR5uuBr6Y-tcaBKpImuOndBL_R9_wMmH09_kRmMfhLkkD5EaTJ2Fvc897sKBVVAE6Cd7cw6LMAFfelU1AmCJMAuatsD-k3V-hEezypDB1o2N5VnTHM7MIn6HDBfpn2yiU6WoXa4m7zeO9gU0U8ZUDFDlo7hDzJjdjVQ_EIW7ksgUv-TUUmUzFdFRKyC1XAUBiMx9_04K_IrHQPXTn6Qcz63VFcn"/>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-primary-container ring-2 ring-surface-container-lowest" title="Available"></span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-title-lg text-title-lg text-primary">Roberto Dela Cruz</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm">Super Admin</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">ID #HB-001</span>
+</div>
+<span class="font-body-sm text-body-sm text-secondary font-medium">Resort General Manager &amp; Managing Director</span>
+<span class="font-body-sm text-body-sm text-outline mt-0.5">Oversees resort governance, guest experiences, municipal safety compliance, and capital expansion.</span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row md:flex-col items-start md:items-end gap-space-xs text-on-surface-variant flex-shrink-0">
+<div class="flex items-center gap-1 text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">mail</span>
+<a class="hover:text-primary" href="mailto:gm@hirayabay.com">gm@hirayabay.com</a>
+</div>
+<div class="flex items-center gap-1 text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">call</span>
+<span class="font-medium text-primary">Ext. 100</span>
+<span class="text-outline text-xs">(+63 917 123 4560)</span>
+</div>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm mt-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              On Duty (Resort Office)
+            </span>
+</div>
+</div>
+<!-- 4 Department Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Pillar 1: Front Desk & Guest Relations -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Professional warm headshot of Maria Santos, Filipina front desk manager, in smart resort attire with warm sunlit wooden lobby background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfSz7HTVo6KIcoueDtG_EldLLzKhacI2BYns-5SsDBdoJxj_zR2VMxo49E-tdNkxO_7VcL_-Oym9hV-nABBmfmVE835fb8PX8R0KAmeEC1il9D3Pne6muw5fbWvT8PEc5EtNr7BxxoT3pC4mVOYKV_MrsvodntlebInxRivNerl_pYaFw2xw6pKpt-MdwhkQ-iVqiqErmYXUiRrCLrvbkBWx637L0hGVvboMmBz2atC4BhcKyygi0f"/>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md text-primary">Maria Santos</span>
+<span class="w-2 h-2 rounded-full bg-primary-container" title="Active"></span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase">Front Desk &amp; Guest Relations Lead</span>
+<span class="text-outline font-body-sm text-body-sm">Admin / Duty Manager • Ext. 101</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+                On Duty
+              </span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1 text-body-sm">
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-medium">Active Roster (4 Members):</span>
+<span class="font-label-sm text-label-sm text-outline">Terminal #1 &amp; #2</span>
+</div>
+<ul class="text-outline text-xs space-y-1">
+<li class="flex items-center justify-between">
+<span>• Joy Dela Torre (Front Desk Cashier)</span>
+<span class="text-primary-container font-medium">Shift 6AM-2PM</span>
+</li>
+<li class="flex items-center justify-between">
+<span>• Aris Mendoza (Gate Pass Officer)</span>
+<span class="text-primary-container font-medium">Shift 6AM-2PM</span>
+</li>
+<li class="flex items-center justify-between text-on-surface-variant">
+<span>• Mark Bautista (Night Concierge Auditor)</span>
+<span class="text-outline">Roster 10PM-6AM</span>
+</li>
+</ul>
+</div>
+<div class="flex items-center justify-between pt-1 font-label-sm text-label-sm text-outline">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary-container">verified_user</span>
+                Permissions: Front Desk POS, Refunds
+              </span>
+<button class="text-secondary hover:text-primary font-bold" type="button">Roster &gt;</button>
+</div>
+</div>
+<!-- Pillar 2: Resort Operations & Grounds -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Portrait of Danilo Panganiban, friendly grounds and maintenance lead at coastal eco-resort with palm fronds background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuUCUVSdm_DZ-sL3CpwD2UCDUZhfsoQ8EAdG4D1BRjFzJMQldJ1dDG5lEESpM1H7r_zY-Xm4r5Wb-4QFlwzCnRkZ8teD9UT9Dw3MK53ZoeBVeYIsZ7JIyKuuFkg9uW2LvHgVD3Cy8Ssn-EB2BH547PN0QWakmSsQ4yLoo-cDbqyPAV0GjrCI6w3H9qbYr_0YKD0B-wiPuUMDE0HHU7spHOtG8A0_JjCE6h45nB2pNBBFnDAtZWOF3R"/>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md text-primary">Danilo Panganiban</span>
+<span class="w-2 h-2 rounded-full bg-primary-container" title="Active"></span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase">Resort Operations &amp; Grounds</span>
+<span class="text-outline font-body-sm text-body-sm">Operations Head • Ext. 105</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+                On Duty
+              </span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1 text-body-sm">
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-medium">Active Roster (6 Members):</span>
+<span class="font-label-sm text-label-sm text-outline">Zone A &amp; Zone B</span>
+</div>
+<ul class="text-outline text-xs space-y-1">
+<li class="flex items-center justify-between">
+<span>• Pedro Alcantara (Cabana Turnover)</span>
+<span class="text-primary-container font-medium">Kubos 1-6</span>
+</li>
+<li class="flex items-center justify-between">
+<span>• Luisa Ramos (Linen &amp; Laundry Lead)</span>
+<span class="text-primary-container font-medium">Laundry Bay</span>
+</li>
+<li class="flex items-center justify-between text-on-surface-variant">
+<span>• Noel Soriano (Pool &amp; Generator Tech)</span>
+<span class="text-outline">On Duty</span>
+</li>
+</ul>
+</div>
+<div class="flex items-center justify-between pt-1 font-label-sm text-label-sm text-outline">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary-container">build_circle</span>
+                Permissions: Housekeeping Dispatch
+              </span>
+<button class="text-secondary hover:text-primary font-bold" type="button">Roster &gt;</button>
+</div>
+</div>
+<!-- Pillar 3: Safety, Coastal Lifeguard & Security -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Portrait of Captain Ronald Cruz, coastal water safety head with binoculars and high-visibility maritime uniform at tropical shoreline" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAedisKxea4QN689HpZhv_bODGq8Ezp1XSJ8IOFdmtpF1xCLzEX4JPSaGCxX-aSaWfWwL3z2nE4tgdl4UzDCBJ8UkeIED0_fB0BofHwxRNKdNQD-b0m0A7RqRV4h7uyJlZTB6Ggvv5uO1EUyhJbXHnS-4nYNYw5ORE7GPx7Nw7zhSA8dIXBo4rCIg-IXlFgm3zMf7tDBR_20UvysZK13qxmubmu8Nf_7fWmAkXh5oGJSEL8876tsmh-"/>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md text-primary">Capt. Ronald Cruz</span>
+<span class="w-2 h-2 rounded-full bg-primary-container" title="Active"></span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase">Safety, Shore &amp; Security</span>
+<span class="text-outline font-body-sm text-body-sm">Head of Shore Safety • Ext. 911 / Ch 4</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+                On Duty
+              </span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1 text-body-sm">
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-medium">Active Shore Guard (4 Members):</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Towers 1 &amp; 2</span>
+</div>
+<ul class="text-outline text-xs space-y-1">
+<li class="flex items-center justify-between">
+<span>• Gary Villamor (Red Cross Certified Guard)</span>
+<span class="text-primary-container font-medium">Watch Tower 1</span>
+</li>
+<li class="flex items-center justify-between">
+<span>• Liza Soberano, RN (Station Medic)</span>
+<span class="text-primary-container font-medium">Pavilion 2 Clinic</span>
+</li>
+<li class="flex items-center justify-between text-on-surface-variant">
+<span>• Samuel Lopez (Perimeter Gate Guard)</span>
+<span class="text-outline">Main Gate</span>
+</li>
+</ul>
+</div>
+<div class="flex items-center justify-between pt-1 font-label-sm text-label-sm text-outline">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">security</span>
+                Permissions: Shore Siren &amp; Incident Dispatch
+              </span>
+<button class="text-secondary hover:text-primary font-bold" type="button">Roster &gt;</button>
+</div>
+</div>
+<!-- Pillar 4: Food, Beverage & Bonfire Services -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Smiling portrait of Chef Elena Romero in pristine white chef uniform standing before outdoor coastal grill and bamboo tiki dining room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyYiBn8HGwvK285i6dhLQEVZ6_mfL-wHytiGmSk4xh281F4CFY1QFpNQ4X-LmwJeMirLpOlielza9TFPRtDyjjC-rmEhOmS8_WMq6TTXBxOfHtqlxEXEvarSQeLysn4x7WmYyTG7ZYwLVeU3T-UhU0n8kKM8U6Kcu1C686QY4pawpP267Dg83dXT8rxFJwTekKeVknFb-1NNOcKGmIJQLWLd3ED1c_0q2Mx7LrLZu5TIBHZT-UrnZn"/>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md text-primary">Chef Elena Romero</span>
+<span class="w-2 h-2 rounded-full bg-secondary-container" title="Prepping"></span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase">Food, Beverage &amp; Bonfire</span>
+<span class="text-outline font-body-sm text-body-sm">F&amp;B Supervisor • Ext. 108</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">
+                Shift Prep
+              </span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1 text-body-sm">
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-medium">Active Roster (4 Members):</span>
+<span class="font-label-sm text-label-sm text-outline">Sunset Grill &amp; Bar</span>
+</div>
+<ul class="text-outline text-xs space-y-1">
+<li class="flex items-center justify-between">
+<span>• Leo Cortez (Sunset Grill Cook)</span>
+<span class="text-outline">Prep 11AM-7PM</span>
+</li>
+<li class="flex items-center justify-between">
+<span>• Bryan Tan (Bonfire &amp; Cabana Server)</span>
+<span class="text-primary-container font-medium">Shift 12PM-9PM</span>
+</li>
+<li class="flex items-center justify-between text-on-surface-variant">
+<span>• Teresa Diaz (Barista &amp; Shakes)</span>
+<span class="text-primary-container font-medium">Shift 6AM-2PM</span>
+</li>
+</ul>
+</div>
+<div class="flex items-center justify-between pt-1 font-label-sm text-label-sm text-outline">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary-container">restaurant_menu</span>
+                Permissions: F&amp;B Tab Order Billing
+              </span>
+<button class="text-secondary hover:text-primary font-bold" type="button">Roster &gt;</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Active Shifts Roster & Action Log -->
+<section class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-6 rounded-full bg-primary-container"></span>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary">Today's Shift Schedule &amp; Station Log</h3>
+<span class="font-body-sm text-body-sm text-outline">Real-time frontline staff positioning and hand-off timestamps</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 bg-surface-container hover:bg-surface-container-high rounded-md text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+              + Add Staff Member
+            </button>
+<button class="px-space-sm py-1 bg-primary text-on-primary rounded-md font-label-sm text-label-sm transition-colors" type="button">
+              Adjust Roster
+            </button>
+</div>
+</div>
+<!-- Table Responsive Container -->
+<div class="overflow-x-auto w-full">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-low text-on-surface font-label-sm text-label-sm uppercase tracking-wider">
+<tr>
+<th class="py-2.5 px-space-sm rounded-l-lg">Staff Name &amp; ID</th>
+<th class="py-2.5 px-space-sm">Department</th>
+<th class="py-2.5 px-space-sm">Shift Window</th>
+<th class="py-2.5 px-space-sm">Assigned Post</th>
+<th class="py-2.5 px-space-sm">Contact Ext</th>
+<th class="py-2.5 px-space-sm rounded-r-lg text-right">Status</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-on-surface">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-sm font-medium text-primary flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-on-secondary-fixed">
+                    JT
+                  </div>
+<div>
+<span class="block text-primary font-semibold">Joy Dela Torre</span>
+<span class="text-[11px] text-outline">HB-FD-08</span>
+</div>
+</td>
+<td class="py-3 px-space-sm text-on-surface-variant">Front Desk</td>
+<td class="py-3 px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-container bg-surface-container px-2 py-0.5 rounded">
+                    Morning (6AM - 2PM)
+                  </span>
+</td>
+<td class="py-3 px-space-sm">Lobby Reception Desk #1</td>
+<td class="py-3 px-space-sm font-medium text-primary">Ext. 101</td>
+<td class="py-3 px-space-sm text-right">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                    Checked-In 05:54
+                  </span>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-sm font-medium text-primary flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center font-bold text-xs text-primary">
+                    AM
+                  </div>
+<div>
+<span class="block text-primary font-semibold">Aris Mendoza</span>
+<span class="text-[11px] text-outline">HB-FD-12</span>
+</div>
+</td>
+<td class="py-3 px-space-sm text-on-surface-variant">Security &amp; Gate</td>
+<td class="py-3 px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-container bg-surface-container px-2 py-0.5 rounded">
+                    Morning (6AM - 2PM)
+                  </span>
+</td>
+<td class="py-3 px-space-sm">Main Entry Gatehouse Cashier</td>
+<td class="py-3 px-space-sm font-medium text-primary">Ext. 102</td>
+<td class="py-3 px-space-sm text-right">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                    Checked-In 06:01
+                  </span>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-sm font-medium text-primary flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-secondary">
+                    GV
+                  </div>
+<div>
+<span class="block text-primary font-semibold">Gary Villamor</span>
+<span class="text-[11px] text-outline">HB-SAF-04</span>
+</div>
+</td>
+<td class="py-3 px-space-sm text-on-surface-variant">Coastal Safety</td>
+<td class="py-3 px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-container bg-surface-container px-2 py-0.5 rounded">
+                    Morning (6AM - 2PM)
+                  </span>
+</td>
+<td class="py-3 px-space-sm">North Beach Lifeguard Post</td>
+<td class="py-3 px-space-sm font-medium text-primary">Radio Ch 2</td>
+<td class="py-3 px-space-sm text-right">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                    Patrol Active
+                  </span>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-sm font-medium text-primary flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-xs text-on-surface">
+                    LS
+                  </div>
+<div>
+<span class="block text-primary font-semibold">Liza Soberano, RN</span>
+<span class="text-[11px] text-outline">HB-MED-02</span>
+</div>
+</td>
+<td class="py-3 px-space-sm text-on-surface-variant">First Aid / Medical</td>
+<td class="py-3 px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-container bg-surface-container px-2 py-0.5 rounded">
+                    Mid-Shift (8AM - 5PM)
+                  </span>
+</td>
+<td class="py-3 px-space-sm">Shore Pavilion 2 Clinic</td>
+<td class="py-3 px-space-sm font-medium text-secondary">Ext. 911</td>
+<td class="py-3 px-space-sm text-right">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+                    Stationed Ready
+                  </span>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-sm font-medium text-primary flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center font-bold text-xs text-outline">
+                    MB
+                  </div>
+<div>
+<span class="block text-primary font-semibold">Mark Bautista</span>
+<span class="text-[11px] text-outline">HB-FD-02</span>
+</div>
+</td>
+<td class="py-3 px-space-sm text-on-surface-variant">Front Desk</td>
+<td class="py-3 px-space-sm">
+<span class="font-label-sm text-label-sm text-outline bg-surface-container px-2 py-0.5 rounded">
+                    Graveyard (10PM - 6AM)
+                  </span>
+</td>
+<td class="py-3 px-space-sm">Night Auditor Station</td>
+<td class="py-3 px-space-sm font-medium text-outline">Ext. 104</td>
+<td class="py-3 px-space-sm text-right">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+                    Upcoming (Tonight)
+                  </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex items-center justify-between text-outline text-xs pt-space-xs font-label-sm">
+<span>Displaying 5 of 18 assigned staff members</span>
+<div class="flex items-center gap-2">
+<button class="hover:text-primary font-semibold" type="button">Previous</button>
+<span class="text-on-surface font-bold">1</span>
+<button class="hover:text-primary font-semibold" type="button">Next &gt;</button>
+</div>
+</div>
+</section>
+</div>
+<!-- RIGHT 4 COLS: Direct Concierge Channels & Emergency Protocols -->
+<div class="lg:col-span-4 flex flex-col gap-space-xl">
+<!-- Concierge & Direct Contact Channels Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-6 rounded-full bg-primary-container"></span>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary">Concierge &amp; Channels</h3>
+<span class="font-body-sm text-body-sm text-outline">Direct lines, routing &amp; automation</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+            24/7 Route
+          </span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Primary Hotline -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-outline">Primary Concierge Hotline</span>
+<span class="material-symbols-outlined text-[16px] text-primary-container">verified</span>
+</div>
+<span class="font-title-lg text-title-lg text-primary font-bold">+63 917 123 4567</span>
+<span class="text-[11px] text-on-surface-variant">Smart / Globe dual-SIM gateway with automatic rollover to Front Desk cordless PABX.</span>
+</div>
+<!-- PABX Extensions -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm uppercase text-outline">Internal Landline PABX</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">(02) 8821-9100</span>
+<div class="grid grid-cols-2 gap-1.5 text-xs text-on-surface-variant pt-1">
+<div class="bg-surface-container-lowest p-1.5 rounded">
+<span class="block text-outline text-[10px] uppercase font-bold">Ext. 101</span>
+<span class="font-medium text-primary">Front Desk</span>
+</div>
+<div class="bg-surface-container-lowest p-1.5 rounded">
+<span class="block text-outline text-[10px] uppercase font-bold">Ext. 102</span>
+<span class="font-medium text-primary">Gatehouse</span>
+</div>
+<div class="bg-surface-container-lowest p-1.5 rounded">
+<span class="block text-outline text-[10px] uppercase font-bold">Ext. 104</span>
+<span class="font-medium text-primary">Duty Mgr</span>
+</div>
+<div class="bg-surface-container-lowest p-1.5 rounded">
+<span class="block text-outline text-[10px] uppercase font-bold">Ext. 108</span>
+<span class="font-medium text-primary">Grill &amp; Bar</span>
+</div>
+</div>
+</div>
+<!-- Official Inboxes & Instant Messaging -->
+<div class="flex flex-col gap-2 pt-1 text-body-sm font-body-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary">mail</span>
+<span class="font-medium">reservations@hirayabay.com</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Primary</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-primary-container">chat</span>
+<span class="font-medium">WhatsApp / Viber Concierge</span>
+</div>
+<span class="text-xs text-primary-container font-semibold">Connected</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-outline">sms</span>
+<span class="font-medium">SMS Mask Sender ID</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary font-mono text-xs font-bold">HIRAYABAY</span>
+</div>
+</div>
+<!-- Channel Dispatch Toggles -->
+<div class="pt-space-sm flex flex-col gap-space-sm border-t-0">
+<span class="font-label-sm text-label-sm uppercase text-outline">Automation Rules</span>
+<label class="flex items-start gap-space-sm cursor-pointer">
+<input checked="" class="mt-1 rounded accent-primary-container w-4 h-4" type="checkbox"/>
+<div class="flex flex-col">
+<span class="font-title-md text-body-sm font-semibold text-on-surface">SMS Gate Pass Dispatch</span>
+<span class="text-[11px] text-outline">Auto-send QR pass upon 30% downpayment verification</span>
+</div>
+</label>
+<label class="flex items-start gap-space-sm cursor-pointer">
+<input checked="" class="mt-1 rounded accent-primary-container w-4 h-4" type="checkbox"/>
+<div class="flex flex-col">
+<span class="font-title-md text-body-sm font-semibold text-on-surface">Night Auto-Attendant (10PM - 6AM)</span>
+<span class="text-[11px] text-outline">Replies with early morning booking &amp; emergency prompt</span>
+</div>
+</label>
+<label class="flex items-start gap-space-sm cursor-pointer">
+<input checked="" class="mt-1 rounded accent-primary-container w-4 h-4" type="checkbox"/>
+<div class="flex flex-col">
+<span class="font-title-md text-body-sm font-semibold text-on-surface">Audible Terminal Ping</span>
+<span class="text-[11px] text-outline">Alert receptionist for urgent WhatsApp inquiry backlog</span>
+</div>
+</label>
+</div>
+</div>
+</div>
+<!-- Emergency Response Hotline & Coastal Dispatch Protocol -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-6 rounded-full bg-secondary"></span>
+<div>
+<h3 class="font-headline-md text-headline-md text-secondary">Coastal Emergency Protocols</h3>
+<span class="font-body-sm text-body-sm text-outline">Priority municipal &amp; sea rescue relays</span>
+</div>
+</div>
+<span class="w-3 h-3 rounded-full bg-secondary animate-pulse" title="Active Monitoring"></span>
+</div>
+<!-- High Priority Hotlines Grid -->
+<div class="flex flex-col gap-space-xs">
+<!-- Item 1: Resort Medic -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Resort Medic &amp; First Aid</span>
+<span class="font-body-md text-body-md text-primary font-bold">Shore Pavilion #2 • Ext. 911</span>
+<span class="text-[11px] text-on-surface-variant">Liza Soberano, RN • Radio Ch 4</span>
+</div>
+<a class="w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center hover:scale-105 transition-transform" href="tel:911" title="Call Medic">
+<span class="material-symbols-outlined text-[18px]">call</span>
+</a>
+</div>
+<!-- Item 2: Philippine Coast Guard -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">Philippine Coast Guard Station</span>
+<span class="font-body-md text-body-md text-primary font-bold">+63 928 555 7890</span>
+<span class="text-[11px] text-on-surface-variant">Hiraya Cove Sub-station • VHF Marine Ch 16</span>
+</div>
+<a class="w-8 h-8 rounded-full bg-surface-container-highest text-primary flex items-center justify-center hover:scale-105 transition-transform" href="tel:+639285557890" title="Call Coast Guard">
+<span class="material-symbols-outlined text-[18px]">sailing</span>
+</a>
+</div>
+<!-- Item 3: Municipal Disaster MDRRMO -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">Municipal Disaster Office (MDRRMO)</span>
+<span class="font-body-md text-body-md text-primary font-bold">(043) 728-1122</span>
+<span class="text-[11px] text-on-surface-variant">Typhoon, Tsunami &amp; Flash Flood Quick Relay</span>
+</div>
+<a class="w-8 h-8 rounded-full bg-surface-container-highest text-primary flex items-center justify-center hover:scale-105 transition-transform" href="tel:0437281122" title="Call MDRRMO">
+<span class="material-symbols-outlined text-[18px]">support</span>
+</a>
+</div>
+<!-- Item 4: Hospital / San Juan District -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">Nearest Hospital (12 Mins)</span>
+<span class="font-body-md text-body-md text-primary font-bold">San Juan District Hospital</span>
+<span class="text-[11px] text-on-surface-variant">Ambulance: +63 917 999 3322</span>
+</div>
+<a class="w-8 h-8 rounded-full bg-surface-container-highest text-primary flex items-center justify-center hover:scale-105 transition-transform" href="tel:+639179993322" title="Ambulance Hot Route">
+<span class="material-symbols-outlined text-[18px]">local_hospital</span>
+</a>
+</div>
+<!-- Item 5: Police & Fire -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">Municipal Police &amp; Fire Dispatch</span>
+<span class="font-body-md text-body-md text-primary font-bold">Police: 117 • Fire: (043) 728-2233</span>
+<span class="text-[11px] text-on-surface-variant">Patrol Unit Station 4 • 8 mins dispatch</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-container-highest text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">local_police</span>
+</div>
+</div>
+</div>
+<!-- Emergency Action Trigger Group -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<button class="w-full flex items-center justify-center gap-space-xs px-space-md py-space-sm bg-secondary text-on-secondary rounded-lg font-label-lg text-label-lg hover:opacity-95 transition-transform shadow-md hover:scale-[1.01]" id="btn-emergency-broadcast" type="button">
+<span class="material-symbols-outlined text-[20px]">notification_important</span>
+<span>Initiate Emergency Broadcaster Alert</span>
+</button>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="flex items-center justify-center gap-1 px-space-sm py-2 bg-surface-container hover:bg-surface-container-high rounded-md text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-secondary">map</span>
+<span>Evacuation Map</span>
+</button>
+<button class="flex items-center justify-center gap-1 px-space-sm py-2 bg-surface-container hover:bg-surface-container-high rounded-md text-on-surface font-label-sm text-label-sm transition-colors" id="btn-test-siren" type="button">
+<span class="material-symbols-outlined text-[16px] text-outline">volume_up</span>
+<span>Test Shore Siren</span>
+</button>
+</div>
+</div>
+<!-- Status Notice -->
+<div class="rounded-lg bg-surface-container-high p-space-sm flex items-center gap-space-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[20px]">verified</span>
+<span class="text-xs">All 4 Coastal VHF handheld radios inspected today • Full battery reserve.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive toast notification handler -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none bg-primary text-on-primary px-space-lg py-space-md rounded-xl shadow-xl flex items-center gap-space-sm" id="settings-toast">
+<span class="material-symbols-outlined text-secondary text-[22px]" id="toast-icon">check_circle</span>
+<span class="font-body-md text-body-md" id="toast-message">Settings and duty roster synchronized with front desk terminals.</span>
+</div>
+</div>
+<script>
+  (function() {
+    const saveBtn = document.getElementById('btn-save-sync');
+    const toast = document.getElementById('settings-toast');
+    const toastMsg = document.getElementById('toast-message');
+    const toastIcon = document.getElementById('toast-icon');
+    const sirenBtn = document.getElementById('btn-test-siren');
+    const broadcastBtn = document.getElementById('btn-emergency-broadcast');
+
+    function showToast(message, iconName) {
+      if (!toast) return;
+      toastMsg.textContent = message;
+      toastIcon.textContent = iconName || 'check_circle';
+      toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+      }, 3500);
+    }
+
+    if (saveBtn) {
+      saveBtn.addEventListener('click', function() {
+        const originalHtml = saveBtn.innerHTML;
+        saveBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin">refresh</span><span>Syncing Terminals...</span>';
+        setTimeout(() => {
+          saveBtn.innerHTML = originalHtml;
+          showToast('Settings saved & roster synchronized across 3 POS terminals.', 'done_all');
+        }, 900);
+      });
+    }
+
+    if (sirenBtn) {
+      sirenBtn.addEventListener('click', function() {
+        showToast('Shore Siren 5-second acoustic test pulse completed successfully.', 'volume_up');
+      });
+    }
+
+    if (broadcastBtn) {
+      broadcastBtn.addEventListener('click', function() {
+        if (confirm('Initiate Hiraya Bay Resort-Wide Emergency Broadcaster Alert to all 14 on-duty radios and guest terminals?')) {
+          showToast('Emergency alert broadcast dispatched to Coast Guard & Guardhouse.', 'warning');
+        }
+      });
+    }
+  })();
+</script></main></div>
+</body></html>

@@ -1,0 +1,718 @@
+<!DOCTYPE html><html lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-container":"#fcab83","surface-container":"#f8ece2","surface-container-lowest":"#ffffff","primary":"#00332e","on-background":"#201b15","on-tertiary-fixed":"#311300","primary-container":"#114b44","secondary-fixed":"#ffdbcb","on-error":"#ffffff","tertiary":"#4b2000","primary-fixed-dim":"#9bd1c7","on-secondary-fixed":"#341100","inverse-surface":"#362f29","surface-bright":"#fff8f4","inverse-on-surface":"#fbefe5","on-primary-fixed-variant":"#174f48","background":"#fff8f4","on-surface":"#201b15","on-secondary-container":"#773d1d","on-tertiary-fixed-variant":"#6f380d","surface-container-low":"#fef1e7","surface-container-highest":"#ece0d7","surface-container-high":"#f2e6dc","tertiary-container":"#6a3409","tertiary-fixed-dim":"#ffb689","on-primary-fixed":"#00201c","surface":"#fff8f4","surface-dim":"#e4d8ce","on-error-container":"#93000a","on-tertiary-container":"#eb9d6b","on-primary-container":"#84bab1","outline-variant":"#bfc8c6","error":"#ba1a1a","tertiary-fixed":"#ffdbc8","surface-tint":"#32675f","on-secondary-fixed-variant":"#703718","outline":"#707977","inverse-primary":"#9bd1c7","on-surface-variant":"#404947","on-secondary":"#ffffff","error-container":"#ffdad6","on-tertiary":"#ffffff","on-primary":"#ffffff","primary-fixed":"#b6ede3","secondary-fixed-dim":"#ffb692","surface-variant":"#ece0d7","secondary":"#8d4e2d"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-lg":"1.5rem","margin-md":"2rem","space-sm":"0.5rem","space-2xl":"3.5rem","margin":"1rem","space-xl":"2.25rem","gutter-lg":"2rem","space-xs":"0.25rem","margin-lg":"3.5rem","space-md":"1rem","gutter":"1.25rem"},"fontFamily":{"headline-lg":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"headline-xl":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"headline-xl-mobile":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"]},"fontSize":{"headline-lg":["1.75rem",{"lineHeight":"1.3","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["0.75rem",{"lineHeight":"1.25","letterSpacing":"0.03em","fontWeight":"600"}],"headline-xl":["2.5rem",{"lineHeight":"1.2","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["0.75rem",{"lineHeight":"1.5","fontWeight":"400"}],"label-sm":["0.6875rem",{"lineHeight":"1.2","letterSpacing":"0.05em","fontWeight":"700"}],"body-lg":["1rem",{"lineHeight":"1.6","fontWeight":"400"}],"body-md":["0.875rem",{"lineHeight":"1.5","fontWeight":"400"}],"headline-md":["1.25rem",{"lineHeight":"1.4","fontWeight":"600"}],"headline-xl-mobile":["1.875rem",{"lineHeight":"1.25","letterSpacing":"-0.01em","fontWeight":"600"}],"title-md":["1rem",{"lineHeight":"1.4","fontWeight":"600"}],"label-lg":["0.875rem",{"lineHeight":"1.25","letterSpacing":"0.01em","fontWeight":"600"}],"title-lg":["1.125rem",{"lineHeight":"1.4","fontWeight":"700"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-low z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="h-20 px-space-md flex items-center gap-space-sm"><div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[24px]">surfing</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-md text-primary tracking-tight">Hiraya Bay</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Resort &amp; Cabanas</span></div></div><div class="px-space-md py-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-wider text-outline px-space-xs">Operations &amp; Stays</span></div><nav class="flex flex-col px-space-sm gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-title-md"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard-overview" href="#"><span class="material-symbols-outlined text-[20px]">dashboard</span><span class="font-body-md text-body-md">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reservations-stays" href="#"><span class="material-symbols-outlined text-[20px]">hotel</span><span class="font-body-md text-body-md">Reservations &amp; Stays</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reservation-schedule" href="#"><span class="material-symbols-outlined text-[20px]">calendar_month</span><span class="font-body-md text-body-md">Reservation Schedule</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="guest-inbox" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">forum</span><span class="font-body-md text-body-md">Messages &amp; Inbox</span></div><span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">5</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="billing-payments" href="#"><span class="material-symbols-outlined text-[20px]">payments</span><span class="font-body-md text-body-md">Billing &amp; Payments</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="settings-staff" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-body-md text-body-md">Settings &amp; Staff</span></a></nav></div><div class="p-space-md flex flex-col gap-space-sm"><div class="rounded-lg bg-surface-container-highest p-space-sm flex flex-col gap-space-xs"><div class="flex items-center justify-between text-on-surface-variant"><span class="font-label-sm text-label-sm uppercase tracking-wide">Coastal Weather</span><span class="material-symbols-outlined text-[18px] text-secondary">sunny</span></div><div class="flex items-baseline justify-between"><span class="font-title-md text-title-md text-on-surface">Sunny 29°C</span><span class="font-label-sm text-label-sm text-outline">Calm Tide</span></div></div><div class="rounded-lg bg-surface-container p-space-sm flex items-center justify-between"><div class="flex flex-col"><span class="font-label-sm text-label-sm text-outline uppercase">Concierge Hotline</span><span class="font-body-sm text-body-sm text-primary font-bold">+63 917 123 4567</span></div><span class="material-symbols-outlined text-secondary text-[20px]">phone_in_talk</span></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-20 bg-surface/80 backdrop-blur-xl z-40 flex items-center justify-between px-gutter-lg shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-md flex-1 max-w-xl"><div class="relative w-full max-w-md"><span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span><input class="w-full pl-10 pr-space-md py-space-sm bg-surface-container-low text-on-surface rounded-lg placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest transition-colors" placeholder="Search guest name, folio ID, cabana..." type="text"></div><div class="hidden xl:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span class="font-label-sm text-label-sm whitespace-nowrap">94% Occupancy • High Season</span></div></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm"><button class="flex items-center gap-space-xs px-space-md py-space-sm bg-primary text-on-primary rounded-lg font-label-lg text-label-lg transition-transform hover:scale-[1.01]" type="button"><span class="material-symbols-outlined text-[18px]">add</span><span class="">New Booking</span></button><button class="hidden sm:flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container text-on-surface rounded-lg font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">how_to_reg</span><span class="">Quick Check-in</span></button></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="relative p-space-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full"></span></button><button aria-label="Guest messages" class="relative p-space-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">chat_bubble</span><span class="absolute top-1 right-1 px-1 min-w-[16px] h-4 rounded-full bg-secondary text-on-secondary font-label-sm text-[10px] flex items-center justify-center">3</span></button></div><div class="flex items-center gap-space-sm pl-space-sm"><div class="hidden md:flex flex-col text-right"><span class="font-title-md text-title-md text-on-surface leading-tight">Maria Santos</span><span class="font-label-sm text-label-sm text-outline">Admin / Front Desk</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 px-gutter-lg py-space-xl bg-background"><div class="flex flex-col w-full">
+<!-- Top Section: Header & Operational Context -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg mb-space-lg">
+<div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider mb-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+        Direct Property Dispatch &amp; Schedule
+      </div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">Reservation Schedule &amp; Unit Availability</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl mt-1">
+        Manage daily resort calendar blocks, turnarounds, day tour cabanas vs. overnight stays, and front-desk folio arrivals in real-time.
+      </p>
+</div>
+<!-- Global Operations Primary CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span>
+<span class="">Print Manifest</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">block</span>
+<span class="">Maintenance Block</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-transform active:scale-95 shadow-md" type="button">
+<span class="material-symbols-outlined text-[18px]">add_circle</span>
+<span class="">New Reservation</span>
+</button>
+</div>
+</div>
+<!-- Real-Time Resort Metrics Row (Bento / High Contrast Pills) -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md mb-space-xl">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Unit Capacity</span>
+<span class="material-symbols-outlined text-primary text-[20px]">bungalow</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary">15 <span class="text-title-md font-title-md text-outline">/ 17</span></span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed">88% In Use</span>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface-variant mt-2 flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span> 14 Booked
+        <span class="text-outline">·</span> 2 Vacant
+        <span class="text-outline">·</span> 1 Clean
+      </div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Day Tour Passes</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">sunny</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface">18</span>
+<span class="font-body-md text-body-md text-secondary font-bold">98 Guests</span>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface-variant mt-2">
+        8:00 AM – 5:00 PM Access Window
+      </div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Overnight Stays</span>
+<span class="material-symbols-outlined text-primary-container text-[20px]">bedtime</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface">10</span>
+<span class="font-body-md text-body-md text-primary font-bold">42 Guests</span>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface-variant mt-2">
+        Check-in 2:00 PM · Out 12:00 NN
+      </div>
+</div>
+<div class="bg-primary text-on-primary p-space-md rounded-xl shadow-md flex flex-col justify-between relative overflow-hidden">
+<div class="relative z-10 flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Week 15 Occupancy</span>
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">trending_up</span>
+</div>
+<div class="relative z-10 flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-white">92.4%</span>
+<span class="text-body-sm font-body-sm text-secondary-fixed">Peak Season</span>
+</div>
+<div class="relative z-10 text-body-sm font-body-sm text-on-primary-container mt-2">
+        ₱218,400 est. gross weekly folio
+      </div>
+<!-- Ambient subtle motif -->
+<div class="absolute -right-4 -bottom-4 w-20 h-20 rounded-full bg-primary-container/40 pointer-events-none"></div>
+</div>
+</div>
+<!-- Schedule Control Toolbar: Range Navigator & Advanced Filtering -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm mb-space-lg flex flex-col xl:flex-row items-stretch xl:items-center justify-between gap-space-md">
+<!-- Date Range Picker Navigation -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<div class="flex items-center bg-surface-container-low rounded-lg p-0.5">
+<button aria-label="Previous week" class="w-8 h-8 flex items-center justify-center rounded-lg text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="px-space-md py-1 font-label-md text-label-md text-primary font-bold hover:bg-surface-container transition-colors rounded-lg" type="button">
+          Today
+        </button>
+<button aria-label="Next week" class="w-8 h-8 flex items-center justify-center rounded-lg text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+<div class="flex items-center gap-2 pl-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">calendar_today</span>
+<span class="font-title-md text-title-md text-on-surface">April 12 – April 18, 2025</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Week 15</span>
+</div>
+</div>
+<!-- View Modes & Filters -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<!-- Stay Type Selector -->
+<div class="flex items-center bg-surface-container-low rounded-lg p-1">
+<button class="px-space-sm py-1 rounded-md text-label-sm font-label-sm bg-primary-container text-on-primary shadow-xs" type="button">
+          All Stays
+        </button>
+<button class="px-space-sm py-1 rounded-md text-label-sm font-label-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+          Day Tour (8A-5P)
+        </button>
+<button class="px-space-sm py-1 rounded-md text-label-sm font-label-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+          Overnight (2P-12NN)
+        </button>
+</div>
+<!-- Quick Category Dropdown Filter -->
+<div class="relative">
+<select class="appearance-none pl-3 pr-8 py-1.5 bg-surface-container-low text-on-surface rounded-lg font-label-sm text-label-sm cursor-pointer focus:outline-none focus:bg-surface-container">
+<option>All Unit Types (17)</option>
+<option>Bamboo Breeze Kubos (4)</option>
+<option>Seaside Family Cabanas (3)</option>
+<option>Poolside Tables (6)</option>
+<option>Open Bonfire Gazebos (4)</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[16px]">expand_more</span>
+</div>
+<!-- Timeline Display Toggle -->
+<div class="hidden sm:flex items-center bg-surface-container rounded-lg p-0.5">
+<button class="p-1.5 rounded-md bg-surface-container-lowest text-primary shadow-xs" title="Gantt Timeline View" type="button">
+<span class="material-symbols-outlined text-[18px]">view_timeline</span>
+</button>
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-on-surface transition-colors" title="Matrix Grid View" type="button">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+</button>
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-on-surface transition-colors" title="List Folio View" type="button">
+<span class="material-symbols-outlined text-[18px]">format_list_bulleted</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Main 12-Column Responsive Layout: 8-Col Grid Schedule + 4-Col Quick Inspector Folio -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT 8-COLS: Interactive Unit Schedule Matrix -->
+<div class="xl:col-span-8 flex flex-col bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<!-- Calendar Matrix Sticky Header -->
+<div class="overflow-x-auto">
+<div class="min-w-[780px]">
+<!-- Days of Week Header Row -->
+<div class="grid grid-cols-8 bg-surface-container-low py-space-sm px-space-md items-center text-center">
+<div class="text-left font-label-sm text-label-sm uppercase tracking-wider text-outline">
+              Resort Unit
+            </div>
+<!-- Today Column Highlighted -->
+<div class="flex flex-col items-center justify-center p-1 rounded-lg bg-primary-container text-on-primary">
+<span class="font-label-sm text-label-sm uppercase font-bold text-primary-fixed">Sat (Today)</span>
+<span class="font-headline-md text-headline-md leading-none">12</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase text-outline">Sun</span>
+<span class="font-title-md text-title-md text-on-surface">13</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase text-outline">Mon</span>
+<span class="font-title-md text-title-md text-on-surface">14</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase text-outline">Tue</span>
+<span class="font-title-md text-title-md text-on-surface">15</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase text-outline">Wed</span>
+<span class="font-title-md text-title-md text-on-surface">16</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase text-outline">Thu</span>
+<span class="font-title-md text-title-md text-on-surface">17</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase text-outline">Fri</span>
+<span class="font-title-md text-title-md text-on-surface">18</span>
+</div>
+</div>
+<!-- UNIT CATEGORY 1: Bamboo Breeze Kubos -->
+<div class="bg-surface-container px-space-md py-2 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">cottage</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Bamboo Breeze Kubos</span>
+<span class="font-label-sm text-label-sm text-outline">• Up to 8 guests • ₱1,200/day</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">4 Units</span>
+</div>
+<!-- Unit Kubo #1 (Active selection for inspector) -->
+<div class="grid grid-cols-8 px-space-md py-space-sm items-stretch gap-1 hover:bg-surface-container-low/50 transition-colors">
+<div class="flex flex-col justify-center pr-2">
+<span class="font-title-md text-title-md text-primary leading-tight font-bold">Kubo #1</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Bestseller</span>
+</div>
+<!-- Sat 12 Booking Block (Selected) -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container text-on-primary flex flex-col justify-between shadow-sm cursor-pointer ring-2 ring-secondary">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[10px] uppercase font-bold text-primary-fixed">Day Tour</span>
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">verified</span>
+</div>
+<div class="my-1">
+<p class="font-title-md text-title-md font-bold truncate leading-tight">Maria Santos</p>
+<p class="font-label-sm text-[11px] text-on-primary-container truncate">6 guests · GCash Paid</p>
+</div>
+<div class="flex items-center justify-between text-[10px] text-primary-fixed">
+<span class="">8A–5P</span>
+<span class="px-1 rounded bg-black/20">#0412</span>
+</div>
+</div>
+</div>
+<!-- Sun 13 Booking Block -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-secondary-fixed text-on-secondary-fixed flex flex-col justify-between shadow-xs cursor-pointer hover:brightness-95">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[10px] uppercase font-bold text-secondary">Overnight</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+</div>
+<div class="my-1">
+<p class="font-label-md text-label-md font-bold truncate">Roberto D.</p>
+<p class="font-label-sm text-[11px] text-on-secondary-fixed-variant truncate">8 guests · 30% Dep</p>
+</div>
+<span class="font-label-sm text-[10px] text-secondary">In: 2:00 PM</span>
+</div>
+</div>
+<!-- Mon 14 Turnover + Daytime Available -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container flex flex-col justify-center items-center text-center group cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">add_circle</span>
+<span class="font-label-sm text-[11px] text-outline group-hover:text-primary mt-1 font-medium">Available</span>
+</div>
+</div>
+<!-- Tue 15 Maintenance Window -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container-high/60 flex flex-col justify-between items-center text-center">
+<span class="font-label-sm text-[10px] uppercase text-outline">Thatch Maint.</span>
+<span class="material-symbols-outlined text-[16px] text-outline">build</span>
+<span class="font-label-sm text-[9px] text-outline">Blocked</span>
+</div>
+</div>
+<!-- Wed 16 Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container/10 text-primary flex flex-col justify-between cursor-pointer hover:bg-primary-container/20">
+<span class="font-label-sm text-[10px] font-bold">Day Tour</span>
+<p class="font-label-md text-label-md font-bold truncate">Liza S.</p>
+<span class="font-label-sm text-[10px] text-outline">5 Guests</span>
+</div>
+</div>
+<!-- Thu 17 Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-secondary-fixed/70 text-on-secondary-fixed flex flex-col justify-between cursor-pointer hover:bg-secondary-fixed">
+<span class="font-label-sm text-[10px] font-bold text-secondary">Overnight</span>
+<p class="font-label-md text-label-md font-bold truncate">Capt. Cruz</p>
+<span class="font-label-sm text-[10px] text-secondary">4 Guests</span>
+</div>
+</div>
+<!-- Fri 18 Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container text-on-primary flex flex-col justify-between cursor-pointer">
+<span class="font-label-sm text-[10px] font-bold text-primary-fixed">Day Tour</span>
+<p class="font-label-md text-label-md font-bold truncate">Alvarez Fam</p>
+<span class="font-label-sm text-[10px] text-primary-fixed">8 Guests</span>
+</div>
+</div>
+</div>
+<!-- Unit Kubo #2 -->
+<div class="grid grid-cols-8 px-space-md py-space-sm items-stretch gap-1 hover:bg-surface-container-low/50 transition-colors">
+<div class="flex flex-col justify-center pr-2">
+<span class="font-title-md text-title-md text-on-surface leading-tight font-bold">Kubo #2</span>
+<span class="font-label-sm text-label-sm text-outline">Garden Side</span>
+</div>
+<!-- Sat 12 Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container/10 text-primary flex flex-col justify-between cursor-pointer hover:bg-primary-container/20">
+<span class="font-label-sm text-[10px] font-bold">Day Tour</span>
+<p class="font-label-md text-label-md font-bold truncate">Danilo P.</p>
+<span class="font-label-sm text-[10px] text-outline">7 Guests</span>
+</div>
+</div>
+<!-- Sun 13 Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container/10 text-primary flex flex-col justify-between cursor-pointer hover:bg-primary-container/20">
+<span class="font-label-sm text-[10px] font-bold">Day Tour</span>
+<p class="font-label-md text-label-md font-bold truncate">A. Mercado</p>
+<span class="font-label-sm text-[10px] text-outline">6 Guests</span>
+</div>
+</div>
+<!-- Mon 14 Available -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container flex flex-col justify-center items-center text-center group cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">add_circle</span>
+<span class="font-label-sm text-[11px] text-outline group-hover:text-primary mt-1 font-medium">Available</span>
+</div>
+</div>
+<!-- Tue 15 Available -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container flex flex-col justify-center items-center text-center group cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">add_circle</span>
+<span class="font-label-sm text-[11px] text-outline group-hover:text-primary mt-1 font-medium">Available</span>
+</div>
+</div>
+<!-- Wed 16 to Thu 17 Overnight Span -->
+<div class="col-span-2 p-1">
+<div class="h-full rounded-lg p-2 bg-secondary-fixed text-on-secondary-fixed flex flex-col justify-between shadow-xs cursor-pointer hover:brightness-95">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[10px] uppercase font-bold text-secondary">2-Night Overnight Block</span>
+<span class="material-symbols-outlined text-[14px] text-secondary">hotel</span>
+</div>
+<div class="my-1">
+<p class="font-title-md text-title-md font-bold truncate">Dr. Valerie Young</p>
+<p class="font-label-sm text-[11px] text-on-secondary-fixed-variant">8 pax · Fully Paid Corporate Folio</p>
+</div>
+<div class="flex items-center justify-between text-[10px] text-secondary">
+<span class="">Wed 2PM – Fri 12NN</span>
+<span class="font-bold">₱4,800 total</span>
+</div>
+</div>
+</div>
+<!-- Fri 18 Turnover then Day Tour -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container-high text-on-surface-variant flex flex-col justify-between">
+<div class="flex items-center gap-1 text-[10px] text-secondary font-bold">
+<span class="material-symbols-outlined text-[12px]">cleaning_services</span>
+<span class="">Turnover 12N</span>
+</div>
+<p class="font-label-sm text-[11px] text-on-surface truncate font-semibold">T. Navarro</p>
+<span class="font-label-sm text-[10px] text-outline">Check-in 2PM</span>
+</div>
+</div>
+</div>
+<!-- UNIT CATEGORY 2: Seaside Family Cabanas -->
+<div class="bg-surface-container px-space-md py-2 flex items-center justify-between mt-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">beach_access</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Seaside Family Cabanas</span>
+<span class="font-label-sm text-label-sm text-outline">• Up to 16 guests • ₱3,500/day • Electric outlets</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">3 Units</span>
+</div>
+<!-- Cabana #1: Panoramic Bay -->
+<div class="grid grid-cols-8 px-space-md py-space-sm items-stretch gap-1 hover:bg-surface-container-low/50 transition-colors">
+<div class="flex flex-col justify-center pr-2">
+<span class="font-title-md text-title-md text-primary leading-tight font-bold">Cabana #1</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Panoramic</span>
+</div>
+<!-- Sat 12 Multi-Unit Extended Party -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container text-on-primary flex flex-col justify-between shadow-xs cursor-pointer">
+<span class="font-label-sm text-[10px] uppercase font-bold text-primary-fixed">Day Tour</span>
+<div>
+<p class="font-label-md text-label-md font-bold truncate">Gonzales Reunion</p>
+<p class="font-label-sm text-[11px] text-primary-fixed truncate">14 Guests · Paid</p>
+</div>
+<span class="font-label-sm text-[10px] text-on-primary-container">8:00 AM – 5:00 PM</span>
+</div>
+</div>
+<!-- Sun 13 Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container text-on-primary flex flex-col justify-between shadow-xs cursor-pointer">
+<span class="font-label-sm text-[10px] uppercase font-bold text-primary-fixed">Day Tour</span>
+<div>
+<p class="font-label-md text-label-md font-bold truncate">Engr. Bautista</p>
+<p class="font-label-sm text-[11px] text-primary-fixed truncate">12 Guests</p>
+</div>
+<span class="font-label-sm text-[10px] text-on-primary-container">8:00 AM – 5:00 PM</span>
+</div>
+</div>
+<!-- Mon 14 to Wed 16 Long Stay -->
+<div class="col-span-3 p-1">
+<div class="h-full rounded-lg p-2 bg-secondary-fixed text-on-secondary-fixed flex flex-col justify-between shadow-xs cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[10px] uppercase font-bold text-secondary">3-Day Family Retreat</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary text-on-secondary text-[10px] font-bold">VIP Folio</span>
+</div>
+<div>
+<p class="font-title-md text-title-md font-bold truncate">Hon. Congressman Tan</p>
+<p class="font-body-sm text-[11px] text-on-secondary-fixed-variant">15 guests · Full Resort Escort &amp; Chef</p>
+</div>
+<div class="flex items-center justify-between text-[10px] text-secondary font-medium">
+<span class="">Mon 2:00 PM Check-in</span>
+<span class="">Balance Paid ₱10,500</span>
+</div>
+</div>
+</div>
+<!-- Thu 17 Turnover window -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-surface-container flex flex-col justify-between items-center text-center">
+<span class="font-label-sm text-[10px] text-outline">Deep Cleaning</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">sanitizer</span>
+<span class="font-label-sm text-[9px] text-outline">Housekeeping OK</span>
+</div>
+</div>
+<!-- Fri 18 Weekend Check-in -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-secondary-fixed text-on-secondary-fixed flex flex-col justify-between cursor-pointer">
+<span class="font-label-sm text-[10px] uppercase font-bold text-secondary">Overnight</span>
+<p class="font-label-md text-label-md font-bold truncate">Villanueva</p>
+<span class="font-label-sm text-[10px] text-secondary">16 Guests</span>
+</div>
+</div>
+</div>
+<!-- UNIT CATEGORY 3: Open Bonfire Gazebos -->
+<div class="bg-surface-container px-space-md py-2 flex items-center justify-between mt-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">fireplace</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Open Bonfire Gazebos</span>
+<span class="font-label-sm text-label-sm text-outline">• Up to 12 guests • ₱2,000/day • Direct pit access</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">4 Units</span>
+</div>
+<!-- Gazebo #1 Sunset View -->
+<div class="grid grid-cols-8 px-space-md py-space-sm items-stretch gap-1 hover:bg-surface-container-low/50 transition-colors mb-2">
+<div class="flex flex-col justify-center pr-2">
+<span class="font-title-md text-title-md text-on-surface leading-tight font-bold">Gazebo #1</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Sunset Pit</span>
+</div>
+<!-- Sat 12 Evening Bonfire Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-secondary-fixed text-on-secondary-fixed flex flex-col justify-between shadow-xs cursor-pointer">
+<span class="font-label-sm text-[10px] uppercase font-bold text-secondary">Sunset + Fire</span>
+<div>
+<p class="font-label-md text-label-md font-bold truncate">S. Ramirez</p>
+<p class="font-label-sm text-[10px] text-on-secondary-fixed-variant truncate">Wood kit added</p>
+</div>
+<span class="font-label-sm text-[10px] text-secondary">5PM – 11PM</span>
+</div>
+</div>
+<!-- Sun 13 Booking -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-secondary-fixed text-on-secondary-fixed flex flex-col justify-between shadow-xs cursor-pointer">
+<span class="font-label-sm text-[10px] uppercase font-bold text-secondary">Night Bonfire</span>
+<div>
+<p class="font-label-md text-label-md font-bold truncate">Claudio Party</p>
+<p class="font-label-sm text-[10px] text-on-secondary-fixed-variant truncate">10 guests</p>
+</div>
+<span class="font-label-sm text-[10px] text-secondary">6PM – 12MN</span>
+</div>
+</div>
+<!-- Mon 14 Available -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container flex flex-col justify-center items-center text-center group cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">add_circle</span>
+<span class="font-label-sm text-[11px] text-outline group-hover:text-primary mt-1 font-medium">Available</span>
+</div>
+</div>
+<!-- Tue 15 Available -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container flex flex-col justify-center items-center text-center group cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">add_circle</span>
+<span class="font-label-sm text-[11px] text-outline group-hover:text-primary mt-1 font-medium">Available</span>
+</div>
+</div>
+<!-- Wed 16 Available -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container flex flex-col justify-center items-center text-center group cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">add_circle</span>
+<span class="font-label-sm text-[11px] text-outline group-hover:text-primary mt-1 font-medium">Available</span>
+</div>
+</div>
+<!-- Thu 17 Private Event -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-2 bg-primary-container text-on-primary flex flex-col justify-between cursor-pointer">
+<span class="font-label-sm text-[10px] text-primary-fixed uppercase font-bold">Day Tour</span>
+<p class="font-label-md text-label-md font-bold truncate">Youth Camp</p>
+<span class="font-label-sm text-[10px] text-primary-fixed">12 Guests</span>
+</div>
+</div>
+<!-- Fri 18 Available -->
+<div class="col-span-1 p-1">
+<div class="h-full rounded-lg p-1.5 bg-surface-container flex flex-col justify-center items-center text-center group cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">add_circle</span>
+<span class="font-label-sm text-[11px] text-outline group-hover:text-primary mt-1 font-medium">Available</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Schedule Legend Bar -->
+<div class="bg-surface-container-low px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm text-body-sm font-body-sm">
+<div class="flex items-center gap-space-md flex-wrap">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded bg-primary-container"></span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Day Tour (8AM–5PM)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded bg-secondary-fixed"></span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Overnight Stay (2PM–12NN)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded bg-surface-container-high"></span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Turnover / Cleaning</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded bg-surface-container"></span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Vacant Slot</span>
+</div>
+</div>
+<div class="text-outline text-label-sm font-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">touch_app</span>
+<span class="">Click any block or slot to inspect folio</span>
+</div>
+</div>
+</div>
+<!-- RIGHT 4-COLS: Selected Booking Folio & Guest Inspector Card -->
+<div class="xl:col-span-4 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-lg flex flex-col justify-between relative overflow-hidden">
+<!-- Accent indicator bar -->
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-secondary"></div>
+<div>
+<!-- Folio Header & Status Chip -->
+<div class="flex items-start justify-between gap-2 mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Active Inspector Folio</span>
+<h2 class="font-headline-md text-headline-md text-primary mt-0.5">Bamboo Breeze Kubo #1</h2>
+<p class="font-label-sm text-label-sm text-outline">Folio Ref: <span class="text-on-surface font-semibold">#HB-2025-0412-08</span></p>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+              Checked In
+            </span>
+</div>
+<!-- Unit Image Thumbnail + Quick Features -->
+<div class="rounded-xl overflow-hidden mb-space-md relative">
+<img class="w-full h-36 object-cover" data-alt="A sunlit authentic Philippine bamboo breeze kubo hut with cogon thatched roof, sea breeze billowing soft natural linen drapes, overlooking tropical sandy lawn and ocean shore at Hiraya Bay Resort." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkLHTyq6oOY5blEKbfogPmNwKz-pdBW0ZpvxvA2FJRv0nUpwJiiDcl0zFh3WkdyZUfb4up_aUz4rbXu1hkykBDlIQXnCDhhSbZiJLqIs5nwHmzNp2fmquaAHsN1lNcihwNqB41mtXkuy3m57D38A6nCeJ9qT78VDhak7D2lBMQ-QYTI2AXlZijZNLsBAofq2k6jr06zNA2K4zq-O9iJMqAJ800793A6IDafhdAprEHPXDiFCZv0Wed">
+<div class="absolute bottom-2 left-2 px-2 py-1 rounded-lg bg-surface/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">group</span>
+              Up to 8 Guests
+            </div>
+<div class="absolute bottom-2 right-2 px-2 py-1 rounded-lg bg-surface/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-bold shadow-sm">
+              ₱1,200 / day
+            </div>
+</div>
+<!-- Guest Info Box -->
+<div class="bg-surface-container-low p-space-md rounded-xl mb-space-md">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Lead Guest</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed text-label-sm font-label-sm">Day Tour Guest</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-title-md">
+                MS
+              </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface leading-tight">Maria Santos</span>
+<span class="font-body-sm text-body-sm text-secondary font-medium">+63 917 542 8891</span>
+<span class="font-body-sm text-[12px] text-outline">maria.santos@gmail.com</span>
+</div>
+</div>
+<!-- Party Breakdown -->
+<div class="grid grid-cols-2 gap-2 mt-3 pt-3 border-t border-surface-container-high/60">
+<div class="flex flex-col">
+<span class="text-outline text-label-sm font-label-sm uppercase">Party Composition</span>
+<span class="text-on-surface text-body-sm font-body-sm font-semibold">4 Adults, 2 Kids</span>
+</div>
+<div class="flex flex-col">
+<span class="text-outline text-label-sm font-label-sm uppercase">Time Slot</span>
+<span class="text-primary text-body-sm font-body-sm font-semibold">8:00 AM – 5:00 PM</span>
+</div>
+</div>
+</div>
+<!-- Financial Breakdown & Downpayment -->
+<div class="mb-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mb-2 block">Billings &amp; Payment Ledger</span>
+<div class="space-y-1.5 font-body-sm text-body-sm">
+<div class="flex justify-between text-on-surface-variant">
+<span class="">Cottage Rental (Kubo #1)</span>
+<span class="">₱1,200.00</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span class="">Adult Entrance Passes (4 × ₱150)</span>
+<span class="">₱600.00</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span class="">Child Passes (2 × ₱100)</span>
+<span class="">₱200.00</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span class="">Evening Bonfire Kit (Pre-ordered)</span>
+<span class="">₱350.00</span>
+</div>
+<div class="pt-2 flex justify-between font-title-md text-title-md text-primary font-bold">
+<span class="">Total Folio Amount</span>
+<span class="">₱2,350.00</span>
+</div>
+</div>
+<!-- Downpayment Status Callout -->
+<div class="mt-3 p-3 rounded-lg bg-surface-container flex flex-col gap-1">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">account_balance_wallet</span>
+                  30% Deposit Paid (GCash)
+                </span>
+<span class="text-primary font-bold">₱705.00</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span class="">Remaining Balance upon Arrival:</span>
+<span class="text-on-surface font-bold text-title-md">₱1,645.00</span>
+</div>
+</div>
+</div>
+<!-- Pre-Ordered Amenities & Add-ons -->
+<div class="mb-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mb-2 block">Prepared Add-ons</span>
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between px-3 py-2 rounded-lg bg-surface-container-low text-body-sm font-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">local_fire_department</span>
+<span class="text-on-surface">Evening Bonfire Kit (Hardwood + Kindling)</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed text-label-sm font-label-sm">Delivered</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Folio Action Triggers -->
+<div class="flex flex-col gap-2 pt-space-sm">
+<div class="grid grid-cols-2 gap-2">
+<button class="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-secondary">sms</span>
+<span class="">Send Pass SMS</span>
+</button>
+<button class="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">qr_code_2</span>
+<span class="">Gate QR Folio</span>
+</button>
+</div>
+<button class="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+<span class="">Collect Balance (₱1,645.00)</span>
+</button>
+</div>
+</div>
+<!-- Quick Concierge Notes Widget -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">sticky_note_2</span>
+<span class="font-title-md text-title-md text-primary">Shift Duty Log</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Today 11:30 AM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          “Turnover for Cabana #1 scheduled sharp at 1:45 PM before Hon. Tan party arrives. Extra ice crates pre-staged at Front Gazebo.”
+        </p>
+</div>
+</div>
+</div>
+<!-- Bottom Timeline Ribbon: Today's Arrival & Turnover Stream -->
+<div class="mt-space-xl bg-surface-container-lowest rounded-xl shadow-sm p-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+</div>
+<div>
+<h3 class="font-title-lg text-title-lg text-primary">Today's Dispatch &amp; Handover Queue</h3>
+<p class="font-body-sm text-body-sm text-outline">April 12, 2025 • Front gate arrivals, mid-day turnovers, and check-outs</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="text-label-sm font-label-sm text-secondary font-bold">14 of 18 Arrivals Handled</span>
+<div class="w-24 h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="w-3/4 h-full bg-primary-container rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Timeline Horizontal Ribbon Items -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-start gap-space-sm">
+<div class="w-2.5 h-2.5 rounded-full bg-primary-container mt-1 shrink-0"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] text-outline uppercase">8:00 AM • Day Pass</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight font-bold">Maria Santos (6 Pax)</span>
+<span class="font-body-sm text-body-sm text-secondary">Kubo #1 • Gate Pass Scanned</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-start gap-space-sm">
+<div class="w-2.5 h-2.5 rounded-full bg-primary-container mt-1 shrink-0"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] text-outline uppercase">8:30 AM • Day Pass</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight font-bold">Gonzales Reunion (14 Pax)</span>
+<span class="font-body-sm text-body-sm text-secondary">Cabana #1 • Wristbands Issued</span>
+</div>
+</div>
+<div class="bg-surface-container-high p-space-sm rounded-lg flex items-start gap-space-sm">
+<div class="w-2.5 h-2.5 rounded-full bg-secondary mt-1 shrink-0 animate-pulse"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] text-secondary uppercase font-bold">12:00 NN • Turnover Slot</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight font-bold">Kubo #3 Sanitation</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Housekeeping Crew Bravo (In-progress)</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-start gap-space-sm">
+<div class="w-2.5 h-2.5 rounded-full bg-outline mt-1 shrink-0"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] text-outline uppercase">2:00 PM • Overnight Check-in</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight font-bold">Engr. Rafael David (4 Pax)</span>
+<span class="font-body-sm text-body-sm text-outline">Kubo #4 • Awaiting Arrival</span>
+</div>
+</div>
+</div>
+</div>
+</div></main></div>
+
+</body></html>
